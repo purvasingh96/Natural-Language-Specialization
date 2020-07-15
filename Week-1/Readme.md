@@ -1,6 +1,10 @@
 # Week 1 : The NLP Pipeline
 
-# NLP Libraries
+# Code
+
+Notebook : [NLP Pipeline](https://github.com/purvasingh96/Natural-Language-Specialization/blob/master/Week-1/text_processing.ipynb)
+
+# Summary
 
 ## Cleaning
 In this step we perform the following tasks -
