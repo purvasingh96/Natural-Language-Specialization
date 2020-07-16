@@ -35,7 +35,10 @@ Transition probability is a probability that one part of speech will follow anot
 
 ### Hidden Markov Model
 Below is a sample hidden markov model. The words below are called *observations*, then we plot a graph of their respective transition and emission probabilities as below-<br>
-<img src="./images/6. Hidden Markov Model.png" height="240"></img>
+<img src="./images/6. Hidden Markov Model.png" height="240"></img><br>
+
+In order to generate sentences via Hidden Markov Model see the below graph for transitional probability -<br>
+<img src="./images/8. Sentence generation.png" height="240"></img><br>
 
 
 
