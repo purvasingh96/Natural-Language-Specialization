@@ -53,7 +53,11 @@ The gamma function is defined as follows -<br><br>
 
 <img src="./images/9. gamma function.png" height="40"></img><br><br>
 
+The advantage of Gamma function is that we can use gamma functions for decimals as well.<br>
 
+<img src="./images/10. decimal beta distribution .png" height="200"></img><br><br>
+
+## Dirichlet Distributions 
 
 
 
