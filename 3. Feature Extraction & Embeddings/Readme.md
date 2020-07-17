@@ -65,8 +65,20 @@ In the Skip-gram model, you take a word, convert it into one-hot encoded vector,
 <img src="./images/9. Skip-gram model.png" height="200"></img><br><br>
 
 
+### GloVe
+
+GloVe : Global vectors for word representation is another form of word embeddings that tries to directly optimize vector representation of each word using co-occurance probabilities.<br>
+
+First, we compute the probability that the word *j* appears in the context of word *i* is computed i.e. `P (j|i)`. This probability is computed for all words in a given corpus. This means we need to compute probability that word *j* either appears next to word *i* or is a few words away from *i*. After calculating the probabilities, we initialize 2 random vectors : one for the word when it is acting as *Context* & one, when it is acting as *Target*.<br><br>
+
+For any given vector *i, j*, we want the *dot product of their word vectors* to be equal to their *co-occurance probability*. The resultant vector should be a set of vectors that capture the similarity and difference between individual words.<br><br>
 
 
+<img src="./images/12. Dot product.png" height="200"></img><br><br>
+
+Consider the below example of *2 context words : ice and steam* v/s *2 Target words : solid and water.*  The target word *solid* would come across context word *ice* more often than *steam*, but, the *target term water* can come across *ice and steam equally likely* and this is exactly what co-occurance probability reflects.<br><br> 
+
+ <img src="./images/11. Co-occurance probability.png" height="200"></img><br><br>
 
 
 
