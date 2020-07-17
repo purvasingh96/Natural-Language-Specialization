@@ -50,6 +50,21 @@ And if 2 pairs of words have a similar difference in their meanings, they should
 
 <img src="./images/8. Word Embeddings.png" height="200"></img><br><br>
 
+Below I have mentioned few models related to word-embeddings.
+
+### Word2Vec
+
+Word2Vec is the most popular form of word embeddings. As the name suggests, it transforms words to vectors. The core idea behind word2vec is : <br>
+1. Given a word, the model should predict its neighbouring, most likely words that might surround that prime word. This type of model is called *Skip Gram*
+2. Given the neighbouring words, the model predicts the prime word. This type of model is called *Continous BOW (C-BOW)*<br>
+
+<img src="./images/10. Word2Vec.png" height="200"></img><br><br>
+
+In the Skip-gram model, you take a word, convert it into one-hot encoded vector, feed it into neural network that is designed to predict the neighbouring words and using the loss function, we optimize the weights while training the model till it learns to predict context words as best as it can.<br>
+
+<img src="./images/9. Skip-gram model.png" height="200"></img><br><br>
+
+
 
 
 
