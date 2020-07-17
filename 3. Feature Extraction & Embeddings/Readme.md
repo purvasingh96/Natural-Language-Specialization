@@ -33,7 +33,11 @@ One disadvantage of BOW is that it treats every word equally even though we know
 
 
 
+## One-Hot Encoding
 
+One-hot encoding is similar to BOW except here, we treat each word like a class and assign it a vector that has 1 in a single pre-determined position for that word and 0 for the rest.<br><br>
+
+<img src="./images/7. One-Hot Encoding.png" height="200"></img><br><br>
 
 
 
