@@ -42,10 +42,16 @@ Here lets say, we have 3 topics and 6 random words and the probability that word
 <img src="./images/6. topic matrix -2.png" height="150"></img>
 
 
+## Distributions
 
+## Beta Distributions
+Consider the following scenario where a coin is tossed and it gives heads : a times and tails : b times, then the Beta distribution is given according to the gamma rule as below -<br>
 
+<img src="./images/8. Beta Distribution .png" height="200"></img><br><br>
 
+The gamma function is defined as follows -<br><br>
 
+<img src="./images/9. gamma function.png" height="40"></img><br><br>
 
 
 
