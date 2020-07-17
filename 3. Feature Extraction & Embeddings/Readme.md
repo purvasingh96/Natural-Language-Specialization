@@ -40,6 +40,21 @@ One-hot encoding is similar to BOW except here, we treat each word like a class 
 <img src="./images/7. One-Hot Encoding.png" height="200"></img><br><br>
 
 
+## Word Embeddings
+
+BOW works in some situations but breaks down when we have large vocabulary. We need a way to control the size of our word reporesentation by limiting it to a fixed-size vector. For example, if 2 words are similar in meaning, they should be closer to each other in vector space as compared to other words that are dissimilar.<br>
+
+<img src="./images/9. Word Embeddings - 1.png" height="200"></img><br><br>
+
+And if 2 pairs of words have a similar difference in their meanings, they should be approximately equally separated in vector space. This property can be used in variety of use-case like finding synonyms, analogies etc.<br><br>
+
+<img src="./images/8. Word Embeddings.png" height="200"></img><br><br>
+
+
+
+
+
+
 
 
 
