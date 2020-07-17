@@ -18,5 +18,5 @@ A better approach is to treat each word document into vector of numbers. A set o
 
 Second, we need to create a *document-text table* where we fill in the frequency of each word occuring in the document. <br><br>
 
-<img src="./images/3. document-term matric.png" height="200"></img><br><br>
+<img src="./images/3. matrix.png" height="200"></img><br><br>
 
