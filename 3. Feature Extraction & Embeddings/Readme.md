@@ -20,3 +20,24 @@ Second, we need to create a *document-text table* where we fill in the frequency
 
 <img src="./images/3. matrix.png" height="200"></img><br><br>
 
+## TF-IDF
+
+One disadvantage of BOW is that it treats every word equally even though we know that there are some words which are of greater importance/weightage. To overcome this we introduce TF-IDF resemblency, where in the document-matrix, we also take note of in how many documents did that word appear and divide the frequency of words by the number of documents in which that word has appeared. <br>
+
+<img src="./images/6. TF-IDF Matrix.png" height="200"></img><br><br>
+
+
+*This gives us a metrics which is directly propotional to term frequency (TF) but is inversely propotional to document frequency (IDF). Hence the term TF-IDF.*
+
+<img src="./images/5. TF-IDF.png" height="200"></img><br><br>
+
+
+
+
+
+
+
+
+
+
+
