@@ -88,6 +88,33 @@ Later, we combine the vectors to form a matrix, from this matrix we can say that
 <br><br><img src="./images/18. sample a word - 3.png" height="200"></img><br><br>
 
 
+## Combining the models (Topic * Word)
+
+#### Generate topics
+Now we perform a matrix multiplication of the above two models i.e. *topic matrix and word matrix* as below. The enteries of first matrix comes from picking points in the distribution *alpha* and for the second matrix it comes from distribution *beta*. The idea is to find the best locations of these points to find the topics we want-
+<br><br><img src="./images/19. Topic model.png" height="200"></img><br><br>
+
+First, we generate some fake documents and compare them to original docs. Lets look at some document points and its Dirichlet distribution *alpha*. These points will give us some values for each of the 3 topics : *Sports, Science, Politics,* thus generating a multi-variate distribution *theta*. This *theta* is a mult-nomial distribution for document -1. <br>
+
+Based on *theta* we will generate topics based on Poisson distribution.
+
+#### Assign words to topics
+
+Now we will assign words to the topics generated above using Dirichlet distribution *beta*. In this distribution we locate the topic and from each of these topics we generate a distribution of words, example, topic 1 *science* generates the word *space* and *climate* with 0.4 probability  and *vote, rule* with probability 0.1. These distributions are called *phi*.<br>
+
+<br><br><img src="./images/19. combining models.png" height="200"></img><br><br>
+
+Now for each of the topic we have chosen, we will pick a word associated with multi-nomial distribution *phi*. Example, for the first topic, we have *science*, we look at the science row in *phi distribution* and pick a word e.g. *space.* We do this for every topic and thus we have generated our *fake document number 1.* We keep repeating this process and create more fake documents.<br>
+
+#### Compare fake to original docs
+After generating the fake documnets, we compare them to the original ones. The probability of generating fake document close to real one is pretty small but we try to maximize this probability and based on maximizing the probability and minimizing the error, we find arrangement of points and that will give us topics.<br>
+*Error* will tell us how far we are from generating real document. This error will back-propogate through distributions that will tell us where to move the points to minimize the error.<br>
+A good arrangement of points will give us *topics*. The Dirichlet distribution *alpha* will give us articles associated with those topics and *beta* will give us words related to that topic.
+
+
+
+
+
 
 
 
