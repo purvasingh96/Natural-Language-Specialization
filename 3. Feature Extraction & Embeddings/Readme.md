@@ -1,5 +1,13 @@
 # Feature Extraction & Embeddings
 
+- [Feature Extraction & Embeddings](#feature-extraction---embeddings)
+  * [Bag of Words](#bag-of-words)
+  * [TF-IDF](#tf-idf)
+  * [One-Hot Encoding](#one-hot-encoding)
+  * [Word Embeddings](#word-embeddings)
+    + [Word2Vec](#word2vec)
+    + [GloVe](#glove)
+
 ## Bag of Words
 
 You can treat a collection of documents as a bag-of-words for comparison purposes. For instance, if you want to check the plagirism of student's essays, then you can treat each essay as bag of words. In order to obtain BOW, we need to follow appropriate pre-processing (normalization, cleaning, lemmatization etc) steps.<br>
