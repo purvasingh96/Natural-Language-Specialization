@@ -21,7 +21,8 @@
 
 ## Overview
 latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics.<br>
-Notebook : [Latent Dirichlet Allocation](https://github.com/purvasingh96/Natural-Language-Specialization/blob/master/4.%20Topic%20Modelling/Latent_dirichlet_allocation.ipynb)
+Notebook : [Latent Dirichlet Allocation](https://github.com/purvasingh96/Natural-Language-Specialization/blob/master/4.%20Topic%20Modelling/Latent_dirichlet_allocation.ipynb)<br>
+Good read : [Gensim : Topic Modelling for Humans](https://radimrehurek.com/gensim/corpora/dictionary.html#gensim.corpora.dictionary.Dictionary.doc2bow)
 
 ## Bag-of-words v/s LDA
 
