@@ -44,7 +44,7 @@ Here lets say, we have 3 topics and 6 random words and the probability that word
 
 ## Distributions
 
-## Beta Distributions
+### Beta Distributions
 Consider the following scenario where a coin is tossed and it gives heads : a times and tails : b times, then the Beta distribution is given according to the gamma rule as below -<br>
 
 <img src="./images/8. Beta Distribution .png" height="200"></img><br><br>
@@ -57,12 +57,42 @@ The advantage of Gamma function is that we can use gamma functions for decimals 
 
 <img src="./images/10. decimal beta distribution .png" height="200"></img><br><br>
 
-## Dirichlet Distributions 
+### Dirichlet Distributions 
 
 Consider an example where a news article is comprised of 60% politics , 30% science and 10% sports news. Then the coressponding Dirichlet distribution is given by - <br>
 <img src="./images/12. Dirichlet distribution .png" height="250"></img><br><br>
 
 The coressponding 3-D distribution would be similar to the diagram below. *If we want a good topic model we need to pick small parameters like the one on the left.*<br><br><img src="./images/13. 3D D Distributions.png" height="200"></img><br><br>
+
+## LDA Model
+
+### LDA Model : Sample a Topic
+
+Consider a case where we pick a point in Dirichlet distribution that coressponds to a news article that contains 80% percent politics, 10% science and 10% sports as below : 
+<br><br><img src="./images/16. sample a topic - 1.png" height="200"></img><br><br>
+
+Now we sample multiple documents from Dirichlet distribution and merge all the vectors to create our first matrix : *A matrix that indices documents with their corresponding topics.*.<br>
+<br><br><img src="./images/15. sample a topic - 2.png" height="200"></img>
+<img src="./images/14. Sample a topic-3.png" height="200"></img><br><br>
+
+### LDA Model : Sample a Word
+
+Consider a news article which consists of the following words : *space, climate, vote, rule* and we draw its corresponding Dirichlet distribution as below:
+<br><br><img src="./images/16. sample a word-1.png" height="200"></img><br><br>
+
+Similarly, we sample multiple topics and create a probabilistic distribution for them.
+<br><br><img src="./images/17. sample a word -2.png" height="200"></img><br><br>
+
+Later, we combine the vectors to form a matrix, from this matrix we can say that since document 1 has a 40% probability of containing the word *space* and 40% probability of containing the word *climate*, document 1 might be about the topic *science*.
+
+<br><br><img src="./images/18. sample a word - 3.png" height="200"></img><br><br>
+
+
+
+
+
+
+
 
 
 
