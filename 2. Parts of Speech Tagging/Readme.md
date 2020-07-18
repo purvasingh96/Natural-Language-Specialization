@@ -1,5 +1,16 @@
 # Parts of Speech Tagging
 
+- [Parts of Speech Tagging](#parts-of-speech-tagging)
+  * [Overview](#overview)
+  * [Lookup Table](#lookup-table)
+  * [Bigrams](#bigrams)
+  * [Hidden Markov Models](#hidden-markov-models)
+    + [Emission Probabilities](#emission-probabilities)
+    + [Transition Probability](#transition-probability)
+    + [Hidden Markov Model](#hidden-markov-model)
+
+
+
 ## Overview
 
 In corpus linguistics, part-of-speech tagging (POS tagging or PoS tagging or POST), also called grammatical tagging is the process of marking up a word in a text (corpus) as corresponding to a particular part of speech, based on both its definition and its context.
