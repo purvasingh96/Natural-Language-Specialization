@@ -1,7 +1,27 @@
 # Latent Dirichlet Allocation
 
+- [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
+  * [Overview](#overview)
+  * [Bag-of-words v/s LDA](#bag-of-words-v-s-lda)
+  * [Matrix Multiplication](#matrix-multiplication)
+    + [Matrix : Bag-of-Words](#matrix---bag-of-words)
+    + [Matrix : Document](#matrix---document)
+    + [Matrix : Topic](#matrix---topic)
+  * [Distributions](#distributions)
+    + [Beta Distributions](#beta-distributions)
+    + [Dirichlet Distributions](#dirichlet-distributions)
+  * [LDA Model](#lda-model)
+    + [LDA Model : Sample a Topic](#lda-model---sample-a-topic)
+    + [LDA Model : Sample a Word](#lda-model---sample-a-word)
+  * [Combining the models (Topic * Word)](#combining-the-models--topic---word-)
+      - [Generate topics](#generate-topics)
+      - [Assign words to topics](#assign-words-to-topics)
+      - [Compare fake to original docs](#compare-fake-to-original-docs)
+
+
 ## Overview
-latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics
+latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics.<br>
+Notebook : [Latent Dirichlet Allocation](https://github.com/purvasingh96/Natural-Language-Specialization/blob/master/4.%20Topic%20Modelling/Latent_dirichlet_allocation.ipynb)
 
 ## Bag-of-words v/s LDA
 
