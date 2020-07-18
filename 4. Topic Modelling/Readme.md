@@ -59,6 +59,10 @@ The advantage of Gamma function is that we can use gamma functions for decimals 
 
 ## Dirichlet Distributions 
 
+Consider an example where a news article is comprised of 60% politics , 30% science and 10% sports news. Then the coressponding Dirichlet distribution is given by - <br>
+<img src="./images/12. Dirichlet distribution .png" height="250"></img><br><br>
+
+The coressponding 3-D distribution would be similar to the diagram below. *If we want a good topic model we need to pick small parameters like the one on the left.*<br><br><img src="./images/13. 3D D Distributions.png" height="200"></img><br><br>
 
 
 
